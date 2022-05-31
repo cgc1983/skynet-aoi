@@ -1,0 +1,7 @@
+*.o
+*.a
+/skynet
+/skynet.pid
+*.so
+*.dSYM
+.DS_Store

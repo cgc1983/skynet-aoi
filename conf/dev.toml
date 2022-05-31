@@ -1,0 +1,21 @@
+title = "skynet-aoi配置文件"
+
+name = "skynet-aoi"
+
+[mysql]
+host     = "127.0.0.1"
+port     = 3306
+database = "skynet-aoi"
+user     = "root"
+password = "root"
+charset  = "utf8mb4"
+
+[redis]
+host = "127.0.0.1"
+port = 6379
+auth = "123456"
+
+[redis_cluster]
+auth="123456"
+hosts=["127.0.0.1","127.0.0.1","127.0.0.1","127.0.0.1","127.0.0.1","127.0.0.1"]
+ports=[6381,6382,6383,6384,6385,6386]

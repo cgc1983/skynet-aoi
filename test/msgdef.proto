@@ -1,0 +1,14 @@
+syntax = "proto3";
+package msg;
+
+message PhoneNumber {
+   int32 a = 4;
+   string b = 5;
+}
+
+
+message Person {
+   int32 a = 1;
+   string b = 2;
+   PhoneNumber c = 3;
+}
