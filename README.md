@@ -112,3 +112,12 @@ pipenv install
 ```bash
 pipenv shell && python main.py
 ```
+
+
+
+添加机器人
+
+```bash
+nc 127.0.0.1 8000
+start aoitest 10001 12000
+```
